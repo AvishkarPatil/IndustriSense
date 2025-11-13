@@ -78,7 +78,7 @@ export default function PartsPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {parts.map((part) => (
-          <div key={part.id} className="card p-6">
+          <div key={part.id} className="card p-6 flex flex-col">
             <div className="flex items-start justify-between mb-4">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
@@ -107,7 +107,7 @@ export default function PartsPage() {
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-500">Unit Cost:</span>
-                <span className="font-medium">${part.unit_cost}</span>
+                <span className="font-medium">₹{parseFloat(part.unit_cost).toFixed(2)}</span>
               </div>
               {part.supplier_name && (
                 <div className="flex justify-between">
@@ -122,7 +122,7 @@ export default function PartsPage() {
                 setSelectedPart(part)
                 setShowRestockModal(true)
               }}
-              className="w-full bg-primary text-white py-2 rounded-lg font-semibold hover:bg-primary-dark transition"
+              className="w-full bg-primary text-white py-2 rounded-lg font-semibold hover:bg-primary-dark transition mt-auto"
             >
               Restock
             </button>
@@ -164,7 +164,7 @@ export default function PartsPage() {
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-semibold mb-2">Unit Cost ($)</label>
+                <label className="block text-sm font-semibold mb-2">Unit Cost (₹)</label>
                 <input name="unit_cost" type="number" step="0.01" required className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" />
               </div>
               <div>

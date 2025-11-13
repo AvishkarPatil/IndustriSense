@@ -241,9 +241,9 @@ export default function MachineDetailPage({ params }: { params: Promise<{ id: st
               <h2 className="text-xl font-semibold mb-4">Maintenance History</h2>
               <div className="space-y-4">
                 {[
-                  { date: machine.last_maintenance_date || '2025-06-15', type: 'Preventive', status: 'Completed', cost: '$500' },
-                  { date: '2025-03-20', type: 'Emergency', status: 'Completed', cost: '$1,200' },
-                  { date: '2024-12-10', type: 'Preventive', status: 'Completed', cost: '$500' },
+                  { date: machine.last_maintenance_date || '2025-06-15', type: 'Preventive', status: 'Completed', cost: '₹500' },
+                  { date: '2025-03-20', type: 'Emergency', status: 'Completed', cost: '₹1,200' },
+                  { date: '2024-12-10', type: 'Preventive', status: 'Completed', cost: '₹500' },
                 ].map((record, idx) => (
                   <div key={idx} className="flex items-center justify-between p-4 bg-background rounded-lg">
                     <div>

@@ -1,8 +1,8 @@
 <h2 align="center">⚙️ IndustriSense: Smart Factory Maintenance Tracker</h2>
 
-<h3 align="center">AI-Powered Predictive Maintenance Platform for Industrial Operations</h3>
+<h3 align="center">Predictive Maintenance Platform for Industrial Operations</h3>
 
-<p align="center"><b>IndustriSense</b> transforms factory maintenance from reactive firefighting into proactive optimization through real-time monitoring, intelligent anomaly detection, and predictive analytics. Built for modern manufacturing, it provides complete machine health tracking, automated work order management, and AI-powered maintenance recommendations.</p>
+<p align="center"><b>IndustriSense</b> transforms factory maintenance from reactive firefighting into proactive optimization through real-time monitoring, intelligent anomaly detection, and predictive analytics. Built for modern manufacturing, it provides complete machine health tracking, automated work order management, and maintenance recommendations.</p>
 
 <p align="center"><em>Production-Ready Factory Maintenance Solution</em></p><br>
 

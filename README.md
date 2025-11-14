@@ -120,6 +120,37 @@ This project demonstrates integration between:
 - PostgreSQL 17+
 - Node.js 18+
 - npm or pnpm
+- Docker
+
+### Docker Setup (Recommended)
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AvishkarPatil/IndustriSense.git
+   cd IndustriSense
+   ```
+
+2. Configure environment:
+   ```bash
+   cp .env.docker .env
+   ```
+
+3. Start all services:
+   ```bash
+   docker-compose up -d
+   ```
+
+4. Access the application:
+   - Frontend: http://localhost:3000
+   - Backend API: http://localhost:8000/api
+   - Database: localhost:5432
+
+5. Stop services:
+   ```bash
+   docker-compose down
+   ```
+
+### Manual Setup
 
 ### Backend Setup
 

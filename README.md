@@ -380,8 +380,6 @@ You are an expert factory maintenance assistant specializing in:
 
 **📖 [API Documentation](API_DOCUMENTATION.md)** - Complete REST API reference with all endpoints, request/response examples, and authentication details
 
-**🚀 [Deployment Guide](DEPLOYMENT.md)** - Production deployment instructions with security checklist, monitoring setup, and troubleshooting
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

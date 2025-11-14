@@ -1,0 +1,1249 @@
+[
+{
+  "model": "sessions.session",
+  "pk": "e9s7sx88mgcm94pxspp83flaim5jk0zp",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHtgDxcuu83EGYGpGogKe3K-O_apAvd3nPOfYkQt7WEraclzCwuYhSn3w0jPVLdAd9jvTVJra7LjHJX5EG7nBqn5_Vw_w5K7OVbJ0JyqMCwYmV9VJnB-tGQ15iN1YaURufAm3McLCZgyJ51RhgIE4J4fwDzbDhr:1vJFQy:08Pz16kWJ_2wgqPDH-L5YFNCNOKp4_2bhWPfqtRNNfI",
+    "expire_date": "2025-11-26T18:19:08.268Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xnopt0l4ni4j9fc54szthi12nm2vr6y0",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHtgDxcuu83EGYGpGogKe3K-O_apAvd3nPOfYkQt7WEraclzCwuYhSn3w0jPVLdAd9jvTVJra7LjHJX5EG7nBqn5_Vw_w5K7OVbJ0JyqMCwYmV9VJnB-tGQ15iN1YaURufAm3McLCZgyJ51RhgIE4J4fwDzbDhr:1vJEpD:wrZ1wEP02PPrbmBdJBacYWlHAkz169XNEtvvKNh5aAg",
+    "expire_date": "2025-11-26T17:40:07.987Z"
+  }
+},
+{
+  "model": "authentication.customuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$SGQvyV6dzNfWyx9oGIxl2J$XFuP6uV6drgSZOydwS4Hwi8keveSiK2n/M8DA4h3x8Y=",
+    "last_login": "2025-11-12T18:19:08.266Z",
+    "is_superuser": true,
+    "username": "avi",
+    "first_name": "",
+    "last_name": "",
+    "email": "avi@mail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-11-12T17:39:49.674Z",
+    "role": "TECHNICIAN",
+    "phone_number": "",
+    "factory_location": "",
+    "profile_photo": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authentication.customuser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$2JbdV7aF5FB760ctacSQWl$obPCGMARaqV5ZM0wWDTseZiTGhHcmc7bNAyN2EAs0a8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "admin",
+    "first_name": "Avi",
+    "last_name": "Patil",
+    "email": "admin@mail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-11-12T17:46:30.628Z",
+    "role": "ADMIN",
+    "phone_number": "8788131898",
+    "factory_location": "Kolhapur Plant",
+    "profile_photo": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authentication.customuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$8QPdud9MnhMObdmivQNoMf$tIciPsvAUJIBclI4uPtg5nWFLW8HR2kthOiH45hATUQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "supervisor",
+    "first_name": "John",
+    "last_name": "Supervisor",
+    "email": "supervisor@mail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-11-12T19:07:22.257Z",
+    "role": "SUPERVISOR",
+    "phone_number": "",
+    "factory_location": "",
+    "profile_photo": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authentication.customuser",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$6nADvrjIheeefw5ZnI6eKm$MoI0umX6w/UzbIIpK6sJzzqyYvJiyBrqa7oDqHM3hPQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "tech",
+    "first_name": "Raj",
+    "last_name": "Kumar",
+    "email": "tech@mail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-11-12T19:07:22.543Z",
+    "role": "TECHNICIAN",
+    "phone_number": "",
+    "factory_location": "",
+    "profile_photo": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "machines.machine",
+  "pk": 1,
+  "fields": {
+    "machine_id": "CNC-001",
+    "machine_name": "CNC Machine",
+    "machine_type": "CNC",
+    "manufacturer": "",
+    "model_number": "",
+    "location": "Floor A",
+    "installation_date": "2024-01-01",
+    "warranty_expiry": null,
+    "status": "OPERATIONAL",
+    "maintenance_frequency_days": 30,
+    "last_maintenance_date": "2024-01-01",
+    "next_maintenance_date": "2024-01-31",
+    "specifications": {},
+    "manual_document": "",
+    "machine_photo": "",
+    "qr_code": "qr_codes/qr_CNC-001_UAjV3gu.png",
+    "created_at": "2025-11-12T18:23:27.138Z",
+    "updated_at": "2025-11-13T08:59:47.983Z",
+    "created_by": 2
+  }
+},
+{
+  "model": "machines.machine",
+  "pk": 2,
+  "fields": {
+    "machine_id": "TEST-1762971976",
+    "machine_name": "Test CNC Machine",
+    "machine_type": "CNC",
+    "manufacturer": "",
+    "model_number": "",
+    "location": "Floor A",
+    "installation_date": "2024-01-01",
+    "warranty_expiry": null,
+    "status": "OPERATIONAL",
+    "maintenance_frequency_days": 30,
+    "last_maintenance_date": "2024-01-15",
+    "next_maintenance_date": "2024-02-14",
+    "specifications": {},
+    "manual_document": "",
+    "machine_photo": "",
+    "qr_code": "qr_codes/qr_TEST-1762971976.png",
+    "created_at": "2025-11-12T18:26:18.516Z",
+    "updated_at": "2025-11-12T18:26:20.638Z",
+    "created_by": 2
+  }
+},
+{
+  "model": "machines.machine",
+  "pk": 3,
+  "fields": {
+    "machine_id": "TEST-1762972030",
+    "machine_name": "Test CNC Machine",
+    "machine_type": "CNC",
+    "manufacturer": "",
+    "model_number": "",
+    "location": "Floor A",
+    "installation_date": "2024-01-01",
+    "warranty_expiry": null,
+    "status": "OPERATIONAL",
+    "maintenance_frequency_days": 30,
+    "last_maintenance_date": "2025-11-07",
+    "next_maintenance_date": "2025-12-07",
+    "specifications": {},
+    "manual_document": "",
+    "machine_photo": "",
+    "qr_code": "qr_codes/qr_TEST-1762972030.png",
+    "created_at": "2025-11-12T18:27:12.122Z",
+    "updated_at": "2025-11-12T18:27:14.226Z",
+    "created_by": 2
+  }
+},
+{
+  "model": "machines.machine",
+  "pk": 4,
+  "fields": {
+    "machine_id": "CNC-002",
+    "machine_name": "CNC Milling Machine",
+    "machine_type": "CNC",
+    "manufacturer": "",
+    "model_number": "",
+    "location": "Shop Floor A",
+    "installation_date": "2023-01-15",
+    "warranty_expiry": null,
+    "status": "OPERATIONAL",
+    "maintenance_frequency_days": 30,
+    "last_maintenance_date": "2025-10-29",
+    "next_maintenance_date": "2025-11-28",
+    "specifications": {},
+    "manual_document": "",
+    "machine_photo": "",
+    "qr_code": "qr_codes/qr_CNC-002_5sAbhRa.png",
+    "created_at": "2025-11-12T19:07:22.830Z",
+    "updated_at": "2025-11-13T15:33:49.979Z",
+    "created_by": 3
+  }
+},
+{
+  "model": "machines.machine",
+  "pk": 5,
+  "fields": {
+    "machine_id": "INJ-001",
+    "machine_name": "Injection Molding Unit 1",
+    "machine_type": "Injection Molding",
+    "manufacturer": "",
+    "model_number": "",
+    "location": "Shop Floor B",
+    "installation_date": "2023-01-15",
+    "warranty_expiry": null,
+    "status": "OPERATIONAL",
+    "maintenance_frequency_days": 30,
+    "last_maintenance_date": "2025-10-19",
+    "next_maintenance_date": "2025-11-18",
+    "specifications": {},
+    "manual_document": "",
+    "machine_photo": "",
+    "qr_code": "",
+    "created_at": "2025-11-12T19:07:22.835Z",
+    "updated_at": "2025-11-12T19:07:22.835Z",
+    "created_by": 3
+  }
+},
+{
+  "model": "machines.machine",
+  "pk": 6,
+  "fields": {
+    "machine_id": "INJ-002",
+    "machine_name": "Injection Molding Unit 2",
+    "machine_type": "Injection Molding",
+    "manufacturer": "",
+    "model_number": "",
+    "location": "Shop Floor B",
+    "installation_date": "2023-01-15",
+    "warranty_expiry": null,
+    "status": "OPERATIONAL",
+    "maintenance_frequency_days": 30,
+    "last_maintenance_date": "2025-10-09",
+    "next_maintenance_date": "2025-11-08",
+    "specifications": {},
+    "manual_document": "",
+    "machine_photo": "",
+    "qr_code": "",
+    "created_at": "2025-11-12T19:07:22.838Z",
+    "updated_at": "2025-11-12T19:07:22.838Z",
+    "created_by": 3
+  }
+},
+{
+  "model": "machines.machine",
+  "pk": 7,
+  "fields": {
+    "machine_id": "CONV-001",
+    "machine_name": "Conveyor Belt System",
+    "machine_type": "Conveyor",
+    "manufacturer": "",
+    "model_number": "",
+    "location": "Assembly Line",
+    "installation_date": "2023-01-15",
+    "warranty_expiry": null,
+    "status": "OPERATIONAL",
+    "maintenance_frequency_days": 30,
+    "last_maintenance_date": "2025-11-03",
+    "next_maintenance_date": "2025-12-03",
+    "specifications": {},
+    "manual_document": "",
+    "machine_photo": "",
+    "qr_code": "",
+    "created_at": "2025-11-12T19:07:22.840Z",
+    "updated_at": "2025-11-12T19:07:22.840Z",
+    "created_by": 3
+  }
+},
+{
+  "model": "machines.machine",
+  "pk": 8,
+  "fields": {
+    "machine_id": "CNC-556",
+    "machine_name": "CNC Milling Machine",
+    "machine_type": "CNC Machine",
+    "manufacturer": "Anuj Industries",
+    "model_number": "ABC1555",
+    "location": "Floor B",
+    "installation_date": "2025-10-21",
+    "warranty_expiry": "2026-03-26",
+    "status": "OPERATIONAL",
+    "maintenance_frequency_days": 10,
+    "last_maintenance_date": null,
+    "next_maintenance_date": null,
+    "specifications": {},
+    "manual_document": "",
+    "machine_photo": "",
+    "qr_code": "qr_codes/qr_CNC-556_7RFZphQ.png",
+    "created_at": "2025-11-13T08:27:33.926Z",
+    "updated_at": "2025-11-13T08:30:54.676Z",
+    "created_by": 2
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 1,
+  "fields": {
+    "machine": 1,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:23:31.337Z",
+    "temperature": 72.0,
+    "vibration_level": 2.0,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 2,
+  "fields": {
+    "machine": 1,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:23:35.596Z",
+    "temperature": 95.0,
+    "vibration_level": 8.5,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 3,
+  "fields": {
+    "machine": 1,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:24:33.901Z",
+    "temperature": 72.0,
+    "vibration_level": 2.0,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 4,
+  "fields": {
+    "machine": 1,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:24:35.975Z",
+    "temperature": 73.0,
+    "vibration_level": 2.1,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 5,
+  "fields": {
+    "machine": 1,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:24:38.048Z",
+    "temperature": 74.0,
+    "vibration_level": 2.2,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 6,
+  "fields": {
+    "machine": 1,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:24:42.257Z",
+    "temperature": 95.0,
+    "vibration_level": 8.5,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 7,
+  "fields": {
+    "machine": 2,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:26:22.734Z",
+    "temperature": 72.0,
+    "vibration_level": 2.0,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 8,
+  "fields": {
+    "machine": 2,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:26:24.831Z",
+    "temperature": 73.0,
+    "vibration_level": 2.1,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 9,
+  "fields": {
+    "machine": 2,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:26:26.921Z",
+    "temperature": 74.0,
+    "vibration_level": 2.2,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 10,
+  "fields": {
+    "machine": 2,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:26:31.100Z",
+    "temperature": 95.0,
+    "vibration_level": 8.5,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": true,
+    "anomaly_reason": "Temperature anomaly: 95.0°C (normal: 73.0±0.8); Vibration anomaly: 8.5 (normal: 2.1±0.1)"
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 11,
+  "fields": {
+    "machine": 3,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:27:16.320Z",
+    "temperature": 72.0,
+    "vibration_level": 2.0,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 12,
+  "fields": {
+    "machine": 3,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:27:18.398Z",
+    "temperature": 73.0,
+    "vibration_level": 2.1,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 13,
+  "fields": {
+    "machine": 3,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:27:20.487Z",
+    "temperature": 74.0,
+    "vibration_level": 2.2,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 14,
+  "fields": {
+    "machine": 3,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T18:27:24.700Z",
+    "temperature": 95.0,
+    "vibration_level": 8.5,
+    "oil_pressure": null,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": true,
+    "anomaly_reason": "Temperature anomaly: 95.0°C (normal: 73.0±0.8); Vibration anomaly: 8.5 (normal: 2.1±0.1)"
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 15,
+  "fields": {
+    "machine": 1,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.843Z",
+    "temperature": 70.0,
+    "vibration_level": 2.0,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 16,
+  "fields": {
+    "machine": 1,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.845Z",
+    "temperature": 72.0,
+    "vibration_level": 2.2,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 17,
+  "fields": {
+    "machine": 1,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.846Z",
+    "temperature": 74.0,
+    "vibration_level": 2.4,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 18,
+  "fields": {
+    "machine": 1,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.847Z",
+    "temperature": 76.0,
+    "vibration_level": 2.6,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 19,
+  "fields": {
+    "machine": 1,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.847Z",
+    "temperature": 78.0,
+    "vibration_level": 2.8,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 20,
+  "fields": {
+    "machine": 4,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.854Z",
+    "temperature": 70.0,
+    "vibration_level": 2.0,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 21,
+  "fields": {
+    "machine": 4,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.855Z",
+    "temperature": 72.0,
+    "vibration_level": 2.2,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 22,
+  "fields": {
+    "machine": 4,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.856Z",
+    "temperature": 74.0,
+    "vibration_level": 2.4,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 23,
+  "fields": {
+    "machine": 4,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.856Z",
+    "temperature": 76.0,
+    "vibration_level": 2.6,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 24,
+  "fields": {
+    "machine": 4,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.858Z",
+    "temperature": 78.0,
+    "vibration_level": 2.8,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 25,
+  "fields": {
+    "machine": 7,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.859Z",
+    "temperature": 70.0,
+    "vibration_level": 2.0,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 26,
+  "fields": {
+    "machine": 7,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.859Z",
+    "temperature": 72.0,
+    "vibration_level": 2.2,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 27,
+  "fields": {
+    "machine": 7,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.861Z",
+    "temperature": 74.0,
+    "vibration_level": 2.4,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 28,
+  "fields": {
+    "machine": 7,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.862Z",
+    "temperature": 76.0,
+    "vibration_level": 2.6,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 29,
+  "fields": {
+    "machine": 7,
+    "logged_by": 4,
+    "timestamp": "2025-11-12T19:07:22.863Z",
+    "temperature": 78.0,
+    "vibration_level": 2.8,
+    "oil_pressure": 45.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 30,
+  "fields": {
+    "machine": 1,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T19:13:16.463Z",
+    "temperature": 85.0,
+    "vibration_level": 3.5,
+    "oil_pressure": 42.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": true,
+    "anomaly_reason": "Oil pressure anomaly: 42.0 (normal: 45.0±0.0)"
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 31,
+  "fields": {
+    "machine": 1,
+    "logged_by": 2,
+    "timestamp": "2025-11-12T19:18:46.056Z",
+    "temperature": 85.0,
+    "vibration_level": 3.5,
+    "oil_pressure": 42.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": true,
+    "anomaly_reason": "Oil pressure anomaly: 42.0 (normal: 45.0±0.0)"
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 32,
+  "fields": {
+    "machine": 8,
+    "logged_by": 2,
+    "timestamp": "2025-11-13T08:28:23.503Z",
+    "temperature": 50.0,
+    "vibration_level": 1.5,
+    "oil_pressure": 48.0,
+    "runtime_hours": null,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": false,
+    "anomaly_reason": ""
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 33,
+  "fields": {
+    "machine": 1,
+    "logged_by": 2,
+    "timestamp": "2025-11-13T09:18:44.578Z",
+    "temperature": 54.0,
+    "vibration_level": 1.5,
+    "oil_pressure": 56.0,
+    "runtime_hours": 1200,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": true,
+    "anomaly_reason": "Temperature anomaly: 54.0°C (normal: 77.4±8.6); Oil pressure anomaly: 56.0 (normal: 45.0±0.0)"
+  }
+},
+{
+  "model": "machines.machinereading",
+  "pk": 34,
+  "fields": {
+    "machine": 1,
+    "logged_by": 2,
+    "timestamp": "2025-11-13T15:33:34.440Z",
+    "temperature": 1.7,
+    "vibration_level": -0.2,
+    "oil_pressure": 3.1,
+    "runtime_hours": 23,
+    "custom_readings": {},
+    "inspection_photo": "",
+    "notes": "",
+    "is_anomaly": true,
+    "anomaly_reason": "Temperature anomaly: 1.7°C (normal: 77.4±8.6); Oil pressure anomaly: 3.1 (normal: 45.0±0.0)"
+  }
+},
+{
+  "model": "maintenance.workorder",
+  "pk": 1,
+  "fields": {
+    "work_order_id": "WO-2024-001",
+    "machine": 1,
+    "title": "Monthly Preventive Maintenance",
+    "description": "Routine maintenance for CNC Machine",
+    "status": "COMPLETED",
+    "priority": "MEDIUM",
+    "assigned_to": 4,
+    "created_by": 3,
+    "scheduled_date": "2025-11-11",
+    "started_at": null,
+    "completed_at": null,
+    "labor_hours": 0.0,
+    "labor_cost": "2500.00",
+    "parts_cost": "1200.00",
+    "completion_notes": "",
+    "digital_signature": "",
+    "created_at": "2025-11-12T19:07:22.888Z",
+    "updated_at": "2025-11-12T19:07:22.888Z"
+  }
+},
+{
+  "model": "maintenance.workorder",
+  "pk": 2,
+  "fields": {
+    "work_order_id": "WO-2024-002",
+    "machine": 4,
+    "title": "Oil Change and Filter Replacement",
+    "description": "Routine maintenance for CNC Milling Machine",
+    "status": "IN_PROGRESS",
+    "priority": "MEDIUM",
+    "assigned_to": 4,
+    "created_by": 3,
+    "scheduled_date": "2025-11-13",
+    "started_at": null,
+    "completed_at": null,
+    "labor_hours": 0.0,
+    "labor_cost": "2500.00",
+    "parts_cost": "1200.00",
+    "completion_notes": "",
+    "digital_signature": "",
+    "created_at": "2025-11-12T19:07:22.891Z",
+    "updated_at": "2025-11-12T19:07:22.891Z"
+  }
+},
+{
+  "model": "maintenance.workorder",
+  "pk": 3,
+  "fields": {
+    "work_order_id": "WO-2024-003",
+    "machine": 7,
+    "title": "Scheduled Inspection",
+    "description": "Routine maintenance for Conveyor Belt System",
+    "status": "PENDING",
+    "priority": "MEDIUM",
+    "assigned_to": 4,
+    "created_by": 3,
+    "scheduled_date": "2025-11-15",
+    "started_at": null,
+    "completed_at": null,
+    "labor_hours": 0.0,
+    "labor_cost": "2500.00",
+    "parts_cost": "1200.00",
+    "completion_notes": "",
+    "digital_signature": "",
+    "created_at": "2025-11-12T19:07:22.893Z",
+    "updated_at": "2025-11-12T19:07:22.893Z"
+  }
+},
+{
+  "model": "maintenance.workorder",
+  "pk": 4,
+  "fields": {
+    "work_order_id": "WO-001",
+    "machine": 1,
+    "title": "Routine Maintenance",
+    "description": "Regular maintenance check",
+    "status": "COMPLETED",
+    "priority": "MEDIUM",
+    "assigned_to": 4,
+    "created_by": 3,
+    "scheduled_date": "2025-11-08",
+    "started_at": null,
+    "completed_at": null,
+    "labor_hours": 0.0,
+    "labor_cost": "500.00",
+    "parts_cost": "200.00",
+    "completion_notes": "",
+    "digital_signature": "",
+    "created_at": "2025-11-13T07:32:02.808Z",
+    "updated_at": "2025-11-13T07:32:02.808Z"
+  }
+},
+{
+  "model": "maintenance.workorder",
+  "pk": 5,
+  "fields": {
+    "work_order_id": "WO-002",
+    "machine": 6,
+    "title": "Emergency Repair",
+    "description": "Hydraulic system failure",
+    "status": "IN_PROGRESS",
+    "priority": "CRITICAL",
+    "assigned_to": 4,
+    "created_by": 3,
+    "scheduled_date": "2025-11-13",
+    "started_at": null,
+    "completed_at": null,
+    "labor_hours": 0.0,
+    "labor_cost": "0.00",
+    "parts_cost": "0.00",
+    "completion_notes": "",
+    "digital_signature": "",
+    "created_at": "2025-11-13T07:32:02.813Z",
+    "updated_at": "2025-11-13T07:32:02.813Z"
+  }
+},
+{
+  "model": "maintenance.workorder",
+  "pk": 6,
+  "fields": {
+    "work_order_id": "WO-003",
+    "machine": 7,
+    "title": "Belt Replacement",
+    "description": "Replace worn drive belt",
+    "status": "PENDING",
+    "priority": "HIGH",
+    "assigned_to": 4,
+    "created_by": 3,
+    "scheduled_date": "2025-11-15",
+    "started_at": null,
+    "completed_at": null,
+    "labor_hours": 0.0,
+    "labor_cost": "0.00",
+    "parts_cost": "0.00",
+    "completion_notes": "",
+    "digital_signature": "",
+    "created_at": "2025-11-13T07:32:02.814Z",
+    "updated_at": "2025-11-13T07:32:02.814Z"
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 1,
+  "fields": {
+    "part_id": "PART-001",
+    "part_name": "Oil Filter",
+    "description": "",
+    "quantity_in_stock": 25,
+    "minimum_stock_level": 10,
+    "unit_cost": "250.00",
+    "supplier_name": "ABC Industrial Supplies",
+    "supplier_contact": "9876543210",
+    "created_at": "2025-11-12T19:07:22.868Z",
+    "updated_at": "2025-11-12T19:07:22.868Z",
+    "compatible_machines": []
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 2,
+  "fields": {
+    "part_id": "PART-002",
+    "part_name": "Hydraulic Oil (5L)",
+    "description": "",
+    "quantity_in_stock": 8,
+    "minimum_stock_level": 15,
+    "unit_cost": "1200.00",
+    "supplier_name": "ABC Industrial Supplies",
+    "supplier_contact": "9876543210",
+    "created_at": "2025-11-12T19:07:22.872Z",
+    "updated_at": "2025-11-12T19:07:22.872Z",
+    "compatible_machines": []
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 3,
+  "fields": {
+    "part_id": "PART-003",
+    "part_name": "Bearing Set",
+    "description": "",
+    "quantity_in_stock": 32,
+    "minimum_stock_level": 5,
+    "unit_cost": "3500.00",
+    "supplier_name": "ABC Industrial Supplies",
+    "supplier_contact": "9876543210",
+    "created_at": "2025-11-12T19:07:22.873Z",
+    "updated_at": "2025-11-12T19:07:22.873Z",
+    "compatible_machines": []
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 4,
+  "fields": {
+    "part_id": "PART-004",
+    "part_name": "Coolant (10L)",
+    "description": "",
+    "quantity_in_stock": 30,
+    "minimum_stock_level": 10,
+    "unit_cost": "800.00",
+    "supplier_name": "ABC Industrial Supplies",
+    "supplier_contact": "9876543210",
+    "created_at": "2025-11-12T19:07:22.875Z",
+    "updated_at": "2025-11-12T19:07:22.875Z",
+    "compatible_machines": []
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 5,
+  "fields": {
+    "part_id": "PART-005",
+    "part_name": "Drive Belt",
+    "description": "",
+    "quantity_in_stock": 5,
+    "minimum_stock_level": 8,
+    "unit_cost": "1500.00",
+    "supplier_name": "ABC Industrial Supplies",
+    "supplier_contact": "9876543210",
+    "created_at": "2025-11-12T19:07:22.876Z",
+    "updated_at": "2025-11-12T19:07:22.876Z",
+    "compatible_machines": []
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 6,
+  "fields": {
+    "part_id": "BRG-001",
+    "part_name": "Bearing Set",
+    "description": "",
+    "quantity_in_stock": 15,
+    "minimum_stock_level": 10,
+    "unit_cost": "250.00",
+    "supplier_name": "",
+    "supplier_contact": "",
+    "created_at": "2025-11-13T07:32:02.788Z",
+    "updated_at": "2025-11-13T07:32:02.788Z",
+    "compatible_machines": []
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 7,
+  "fields": {
+    "part_id": "OIL-001",
+    "part_name": "Hydraulic Oil",
+    "description": "",
+    "quantity_in_stock": 3,
+    "minimum_stock_level": 5,
+    "unit_cost": "150.00",
+    "supplier_name": "",
+    "supplier_contact": "",
+    "created_at": "2025-11-13T07:32:02.794Z",
+    "updated_at": "2025-11-13T07:32:02.794Z",
+    "compatible_machines": []
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 8,
+  "fields": {
+    "part_id": "BELT-001",
+    "part_name": "Drive Belt",
+    "description": "",
+    "quantity_in_stock": 4,
+    "minimum_stock_level": 5,
+    "unit_cost": "80.00",
+    "supplier_name": "",
+    "supplier_contact": "",
+    "created_at": "2025-11-13T07:32:02.796Z",
+    "updated_at": "2025-11-13T07:32:02.796Z",
+    "compatible_machines": []
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 9,
+  "fields": {
+    "part_id": "SEAL-001",
+    "part_name": "Seal Kit",
+    "description": "",
+    "quantity_in_stock": 20,
+    "minimum_stock_level": 8,
+    "unit_cost": "45.00",
+    "supplier_name": "",
+    "supplier_contact": "",
+    "created_at": "2025-11-13T07:32:02.797Z",
+    "updated_at": "2025-11-13T07:32:02.797Z",
+    "compatible_machines": []
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 10,
+  "fields": {
+    "part_id": "FILTER-001",
+    "part_name": "Air Filter",
+    "description": "",
+    "quantity_in_stock": 123,
+    "minimum_stock_level": 6,
+    "unit_cost": "35.00",
+    "supplier_name": "",
+    "supplier_contact": "",
+    "created_at": "2025-11-13T07:32:02.799Z",
+    "updated_at": "2025-11-13T07:32:02.799Z",
+    "compatible_machines": []
+  }
+},
+{
+  "model": "maintenance.sparepart",
+  "pk": 11,
+  "fields": {
+    "part_id": "ROD-001",
+    "part_name": "Piston Rod",
+    "description": "",
+    "quantity_in_stock": 2,
+    "minimum_stock_level": 2,
+    "unit_cost": "200.00",
+    "supplier_name": "Anuj Industries",
+    "supplier_contact": "",
+    "created_at": "2025-11-13T07:53:41.504Z",
+    "updated_at": "2025-11-13T07:53:41.504Z",
+    "compatible_machines": []
+  }
+}
+]
